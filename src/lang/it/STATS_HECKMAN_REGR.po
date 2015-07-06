@@ -1,0 +1,275 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_HECKMAN_REGR.R:106
+msgid "The R sampleSelection package is required but could not be loaded."
+msgstr ""
+"Il package R sampleSelection è necessario, ma non è stato possibile caricarlo."
+
+#: STATS_HECKMAN_REGR.R:109
+msgid "The selection  variable may not appear elsewhere as a variable"
+msgstr ""
+"La variabile selezione non può comparire altrove come una variabile"
+
+#: STATS_HECKMAN_REGR.R:111
+msgid "The outcome variable may not appear elsewhere as a variable"
+msgstr ""
+"La variabile risultato non può comparire altrove come una variabile"
+
+#: STATS_HECKMAN_REGR.R:113
+msgid "A dataset name is required if any items are to be saved"
+msgstr ""
+"Un nome di dataset è richiesto se è necessario salvare degli elementi"
+
+#: STATS_HECKMAN_REGR.R:115
+msgid "A dataset name was specified but no items to save were specified"
+msgstr ""
+"È stato specificato un nome di dataset ma non è stato specificato alcun elemento da salvare"
+
+#: STATS_HECKMAN_REGR.R:149
+msgid "Switching Regression"
+msgstr ""
+"Regressione di commutazione"
+
+#: STATS_HECKMAN_REGR.R:165
+msgid "Estimate"
+msgstr ""
+"Stima"
+
+#: STATS_HECKMAN_REGR.R:166
+msgid "Std. Error"
+msgstr ""
+"Errore std."
+
+#: STATS_HECKMAN_REGR.R:167
+msgid "t Value"
+msgstr ""
+"Valore T"
+
+#: STATS_HECKMAN_REGR.R:168
+msgid "Sig."
+msgstr ""
+"Sign."
+
+#: STATS_HECKMAN_REGR.R:242
+msgid "Selection Fitted Values"
+msgstr ""
+"Valori adattati selezione"
+
+#: STATS_HECKMAN_REGR.R:247
+msgid "Outcome Fitted Values"
+msgstr ""
+"Valori adattati risultato"
+
+#: STATS_HECKMAN_REGR.R:252
+msgid "Selection Residuals"
+msgstr ""
+"Residui di selezione"
+
+#: STATS_HECKMAN_REGR.R:257
+msgid "Outcome Residuals"
+msgstr ""
+"Residui di risultato"
+
+#: STATS_HECKMAN_REGR.R:270
+msgid "Heckman Regression"
+msgstr ""
+"Regressione di Heckman"
+
+#: STATS_HECKMAN_REGR.R:273
+msgid "Implemented using package sampleSelection by O. Toomet and A.Henningsen"
+msgstr ""
+"Implementato utilizzando il package sampleSelection di O. Toomet e A.Henningsen"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Selection Variable"
+msgstr ""
+"Variabile selezione"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Outcome Variable"
+msgstr ""
+"Variabile risultato"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Model Type"
+msgstr ""
+"Tipo di modello"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Number of Valid Cases"
+msgstr ""
+"Numero di casi validi"
+
+#: STATS_HECKMAN_REGR.R:276
+msgid "Number of Outcome 1 Cases"
+msgstr ""
+"Numero di casi risultato 1"
+
+#: STATS_HECKMAN_REGR.R:276
+msgid "Number of Outcome 2 Cases"
+msgstr ""
+"Numero di casi risultato 2"
+
+#: STATS_HECKMAN_REGR.R:276
+#: STATS_HECKMAN_REGR.R:299
+msgid "Number of Parameters"
+msgstr ""
+"Numero di parametri"
+
+#: STATS_HECKMAN_REGR.R:277
+#: STATS_HECKMAN_REGR.R:300
+msgid "D.F"
+msgstr ""
+"G.L."
+
+#: STATS_HECKMAN_REGR.R:277
+msgid "R-Squared 1"
+msgstr ""
+"R-quadrato 1"
+
+#: STATS_HECKMAN_REGR.R:277
+msgid "Adjusted R-Squared 1"
+msgstr ""
+"R-quadrato adattato 1"
+
+#: STATS_HECKMAN_REGR.R:278
+msgid "R-Squared 2"
+msgstr ""
+"R-quadrato 2"
+
+#: STATS_HECKMAN_REGR.R:278
+msgid "Adjusted R-Squared 2"
+msgstr ""
+"R-quadrato adattato 2"
+
+#: STATS_HECKMAN_REGR.R:279
+#: STATS_HECKMAN_REGR.R:300
+msgid "Method"
+msgstr ""
+"Metodo"
+
+#: STATS_HECKMAN_REGR.R:279
+#: STATS_HECKMAN_REGR.R:301
+msgid "Computations"
+msgstr ""
+"Calcoli"
+
+#: STATS_HECKMAN_REGR.R:279
+#: STATS_HECKMAN_REGR.R:301
+msgid "Dataset Created"
+msgstr ""
+"Dataset creato"
+
+#: STATS_HECKMAN_REGR.R:282
+#: STATS_HECKMAN_REGR.R:305
+msgid "Summary Statistics"
+msgstr ""
+"Statistiche di riepilogo"
+
+#: STATS_HECKMAN_REGR.R:283
+#: STATS_HECKMAN_REGR.R:283
+#: STATS_HECKMAN_REGR.R:306
+#: STATS_HECKMAN_REGR.R:306
+msgid "Summary"
+msgstr ""
+"Riepilogo"
+
+#: STATS_HECKMAN_REGR.R:286
+#: STATS_HECKMAN_REGR.R:309
+msgid "Selection Variable: %s"
+msgstr ""
+"Variabile selezione: %s"
+
+#: STATS_HECKMAN_REGR.R:287
+#: STATS_HECKMAN_REGR.R:310
+msgid "Probit Selection Estimates"
+msgstr ""
+"Stime di selezione probit"
+
+#: STATS_HECKMAN_REGR.R:288
+#: STATS_HECKMAN_REGR.R:311
+msgid "Selection Estimates"
+msgstr ""
+"Stime di selezione"
+
+#: STATS_HECKMAN_REGR.R:290
+msgid "Outcome Variable: %s, Sigma1: %.4f, Rho1: %.4f"
+msgstr ""
+"Variabile di risultato: %s, Sigma1: %.4f, Rho1: %.4f"
+
+#: STATS_HECKMAN_REGR.R:291
+#: STATS_HECKMAN_REGR.R:292
+msgid "Outcome 1 Estimates"
+msgstr ""
+"Stime risultato 1"
+
+#: STATS_HECKMAN_REGR.R:294
+msgid "Outcome Variable: %s, Sigma2: %.4f, Rho2: %.4f"
+msgstr ""
+"Variabile di risultato: %s, Sigma2: %.4f, Rho2: %.4f"
+
+#: STATS_HECKMAN_REGR.R:295
+#: STATS_HECKMAN_REGR.R:296
+msgid "Outcome 2 Estimates"
+msgstr ""
+"Stime risultato 2"
+
+#: STATS_HECKMAN_REGR.R:299
+msgid "Number of Censored Cases"
+msgstr ""
+"Numero di casi censurati"
+
+#: STATS_HECKMAN_REGR.R:299
+msgid "Number of Observed Cases"
+msgstr ""
+"Numero di casi osservati"
+
+#: STATS_HECKMAN_REGR.R:300
+msgid "R-Squared"
+msgstr ""
+"R-quadrato"
+
+#: STATS_HECKMAN_REGR.R:300
+msgid "Adjusted R-Squared"
+msgstr ""
+"R-quadrato adattato"
+
+#: STATS_HECKMAN_REGR.R:300
+msgid "Log Likelihood"
+msgstr ""
+"Logaritmo della verosimiglianza"
+
+#: STATS_HECKMAN_REGR.R:313
+msgid "Outcome Variable: %s, Sigma: %.4f, Rho: %.4f"
+msgstr ""
+"Variabile di risultato: %s, Sigma: %.4f, Rho: %.4f"
+
+#: STATS_HECKMAN_REGR.R:314
+#: STATS_HECKMAN_REGR.R:315
+msgid "Outcome Estimates"
+msgstr ""
+"Stime risultato"
+
+
