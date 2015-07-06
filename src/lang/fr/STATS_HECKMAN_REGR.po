@@ -1,0 +1,275 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_HECKMAN_REGR.R:106
+msgid "The R sampleSelection package is required but could not be loaded."
+msgstr ""
+"Le pack R sampleSelection est requis mais ne peut pas être chargé."
+
+#: STATS_HECKMAN_REGR.R:109
+msgid "The selection  variable may not appear elsewhere as a variable"
+msgstr ""
+"La variable de sélection peut ne pas apparaître ailleurs en tant que variable"
+
+#: STATS_HECKMAN_REGR.R:111
+msgid "The outcome variable may not appear elsewhere as a variable"
+msgstr ""
+"La variable de résultat peut ne pas apparaître ailleurs en tant que variable"
+
+#: STATS_HECKMAN_REGR.R:113
+msgid "A dataset name is required if any items are to be saved"
+msgstr ""
+"Un nom de jeu de données est requis s'il y a des éléments à enregistrer"
+
+#: STATS_HECKMAN_REGR.R:115
+msgid "A dataset name was specified but no items to save were specified"
+msgstr ""
+"Un nom de jeu de données a été indiqué mais aucun élément à enregistrer n'a été spécifié"
+
+#: STATS_HECKMAN_REGR.R:149
+msgid "Switching Regression"
+msgstr ""
+"Régression avec changement de régime"
+
+#: STATS_HECKMAN_REGR.R:165
+msgid "Estimate"
+msgstr ""
+"Estimation"
+
+#: STATS_HECKMAN_REGR.R:166
+msgid "Std. Error"
+msgstr ""
+"Erreur std."
+
+#: STATS_HECKMAN_REGR.R:167
+msgid "t Value"
+msgstr ""
+"Valeur t"
+
+#: STATS_HECKMAN_REGR.R:168
+msgid "Sig."
+msgstr ""
+"Sig."
+
+#: STATS_HECKMAN_REGR.R:242
+msgid "Selection Fitted Values"
+msgstr ""
+"Valeurs de filtrage ajustées"
+
+#: STATS_HECKMAN_REGR.R:247
+msgid "Outcome Fitted Values"
+msgstr ""
+"Valeurs de résultat ajustées"
+
+#: STATS_HECKMAN_REGR.R:252
+msgid "Selection Residuals"
+msgstr ""
+"Résidus de filtrage"
+
+#: STATS_HECKMAN_REGR.R:257
+msgid "Outcome Residuals"
+msgstr ""
+"Résidus de résultat"
+
+#: STATS_HECKMAN_REGR.R:270
+msgid "Heckman Regression"
+msgstr ""
+"Régression Heckman"
+
+#: STATS_HECKMAN_REGR.R:273
+msgid "Implemented using package sampleSelection by O. Toomet and A.Henningsen"
+msgstr ""
+"Implémenté à l'aide du pack sampleSelection développé par O. Toomet et A.Henningsen"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Selection Variable"
+msgstr ""
+"Variable de filtrage"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Outcome Variable"
+msgstr ""
+"Variable de résultat"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Model Type"
+msgstr ""
+"Type de modèle"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Number of Valid Cases"
+msgstr ""
+"Nombre d'observations valides"
+
+#: STATS_HECKMAN_REGR.R:276
+msgid "Number of Outcome 1 Cases"
+msgstr ""
+"Nombre d'observations 1 de résultat"
+
+#: STATS_HECKMAN_REGR.R:276
+msgid "Number of Outcome 2 Cases"
+msgstr ""
+"Nombre d'observations 2 de résultat"
+
+#: STATS_HECKMAN_REGR.R:276
+#: STATS_HECKMAN_REGR.R:299
+msgid "Number of Parameters"
+msgstr ""
+"Nombre de paramètres"
+
+#: STATS_HECKMAN_REGR.R:277
+#: STATS_HECKMAN_REGR.R:300
+msgid "D.F"
+msgstr ""
+"D.F"
+
+#: STATS_HECKMAN_REGR.R:277
+msgid "R-Squared 1"
+msgstr ""
+"R-deux 1"
+
+#: STATS_HECKMAN_REGR.R:277
+msgid "Adjusted R-Squared 1"
+msgstr ""
+"R-deux 1 ajusté"
+
+#: STATS_HECKMAN_REGR.R:278
+msgid "R-Squared 2"
+msgstr ""
+"R-deux 2"
+
+#: STATS_HECKMAN_REGR.R:278
+msgid "Adjusted R-Squared 2"
+msgstr ""
+"R-deux 2 ajusté"
+
+#: STATS_HECKMAN_REGR.R:279
+#: STATS_HECKMAN_REGR.R:300
+msgid "Method"
+msgstr ""
+"Méthode"
+
+#: STATS_HECKMAN_REGR.R:279
+#: STATS_HECKMAN_REGR.R:301
+msgid "Computations"
+msgstr ""
+"Calculs"
+
+#: STATS_HECKMAN_REGR.R:279
+#: STATS_HECKMAN_REGR.R:301
+msgid "Dataset Created"
+msgstr ""
+"Jeu de données créé"
+
+#: STATS_HECKMAN_REGR.R:282
+#: STATS_HECKMAN_REGR.R:305
+msgid "Summary Statistics"
+msgstr ""
+"Statistiques récapitulatives"
+
+#: STATS_HECKMAN_REGR.R:283
+#: STATS_HECKMAN_REGR.R:283
+#: STATS_HECKMAN_REGR.R:306
+#: STATS_HECKMAN_REGR.R:306
+msgid "Summary"
+msgstr ""
+"Récapitulatif"
+
+#: STATS_HECKMAN_REGR.R:286
+#: STATS_HECKMAN_REGR.R:309
+msgid "Selection Variable: %s"
+msgstr ""
+"Variable de filtrage : %s"
+
+#: STATS_HECKMAN_REGR.R:287
+#: STATS_HECKMAN_REGR.R:310
+msgid "Probit Selection Estimates"
+msgstr ""
+"Estimations de sélection Probit"
+
+#: STATS_HECKMAN_REGR.R:288
+#: STATS_HECKMAN_REGR.R:311
+msgid "Selection Estimates"
+msgstr ""
+"Estimations de sélection"
+
+#: STATS_HECKMAN_REGR.R:290
+msgid "Outcome Variable: %s, Sigma1: %.4f, Rho1: %.4f"
+msgstr ""
+"Variable de sortie : %s, Sigma1 : %.4f, Rho1 : %.4f"
+
+#: STATS_HECKMAN_REGR.R:291
+#: STATS_HECKMAN_REGR.R:292
+msgid "Outcome 1 Estimates"
+msgstr ""
+"Estimations de résultat 1"
+
+#: STATS_HECKMAN_REGR.R:294
+msgid "Outcome Variable: %s, Sigma2: %.4f, Rho2: %.4f"
+msgstr ""
+"Variable de sortie : %s, Sigma2 : %.4f, Rho2 : %.4f"
+
+#: STATS_HECKMAN_REGR.R:295
+#: STATS_HECKMAN_REGR.R:296
+msgid "Outcome 2 Estimates"
+msgstr ""
+"Estimations de résultat 2"
+
+#: STATS_HECKMAN_REGR.R:299
+msgid "Number of Censored Cases"
+msgstr ""
+"Nombre d'observations censurées"
+
+#: STATS_HECKMAN_REGR.R:299
+msgid "Number of Observed Cases"
+msgstr ""
+"Nombre d'observations"
+
+#: STATS_HECKMAN_REGR.R:300
+msgid "R-Squared"
+msgstr ""
+"R-deux"
+
+#: STATS_HECKMAN_REGR.R:300
+msgid "Adjusted R-Squared"
+msgstr ""
+"R-deux ajusté"
+
+#: STATS_HECKMAN_REGR.R:300
+msgid "Log Likelihood"
+msgstr ""
+"Log de vraisemblance"
+
+#: STATS_HECKMAN_REGR.R:313
+msgid "Outcome Variable: %s, Sigma: %.4f, Rho: %.4f"
+msgstr ""
+"Variable de sortie : %s, Sigma : %.4f, Rho : %.4f"
+
+#: STATS_HECKMAN_REGR.R:314
+#: STATS_HECKMAN_REGR.R:315
+msgid "Outcome Estimates"
+msgstr ""
+"Estimations de résultat"
+
+
