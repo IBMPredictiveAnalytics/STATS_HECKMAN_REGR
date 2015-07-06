@@ -1,0 +1,275 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_HECKMAN_REGR.R:106
+msgid "The R sampleSelection package is required but could not be loaded."
+msgstr ""
+"需要 R sampleSelection 包，但未能装入。"
+
+#: STATS_HECKMAN_REGR.R:109
+msgid "The selection  variable may not appear elsewhere as a variable"
+msgstr ""
+"选择变量不得在其他位置作为变量出现"
+
+#: STATS_HECKMAN_REGR.R:111
+msgid "The outcome variable may not appear elsewhere as a variable"
+msgstr ""
+"结果变量不得在其他位置作为变量出现"
+
+#: STATS_HECKMAN_REGR.R:113
+msgid "A dataset name is required if any items are to be saved"
+msgstr ""
+"如果要保存任何项，那么必须指定数据集名称"
+
+#: STATS_HECKMAN_REGR.R:115
+msgid "A dataset name was specified but no items to save were specified"
+msgstr ""
+"已指定数据集名称，但未指定任何要保存的项"
+
+#: STATS_HECKMAN_REGR.R:149
+msgid "Switching Regression"
+msgstr ""
+"切换回归"
+
+#: STATS_HECKMAN_REGR.R:165
+msgid "Estimate"
+msgstr ""
+"估算"
+
+#: STATS_HECKMAN_REGR.R:166
+msgid "Std. Error"
+msgstr ""
+"标准误差"
+
+#: STATS_HECKMAN_REGR.R:167
+msgid "t Value"
+msgstr ""
+"t 值"
+
+#: STATS_HECKMAN_REGR.R:168
+msgid "Sig."
+msgstr ""
+"显著性"
+
+#: STATS_HECKMAN_REGR.R:242
+msgid "Selection Fitted Values"
+msgstr ""
+"选择拟合值"
+
+#: STATS_HECKMAN_REGR.R:247
+msgid "Outcome Fitted Values"
+msgstr ""
+"结果拟合值"
+
+#: STATS_HECKMAN_REGR.R:252
+msgid "Selection Residuals"
+msgstr ""
+"选择残差"
+
+#: STATS_HECKMAN_REGR.R:257
+msgid "Outcome Residuals"
+msgstr ""
+"结果残差"
+
+#: STATS_HECKMAN_REGR.R:270
+msgid "Heckman Regression"
+msgstr ""
+"赫克曼回归"
+
+#: STATS_HECKMAN_REGR.R:273
+msgid "Implemented using package sampleSelection by O. Toomet and A.Henningsen"
+msgstr ""
+"由 O. Toomet 和 A. Henningsen 使用 sampleSelection 包实现"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Selection Variable"
+msgstr ""
+"选择变量"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Outcome Variable"
+msgstr ""
+"结果变量"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Model Type"
+msgstr ""
+"模型类型"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Number of Valid Cases"
+msgstr ""
+"有效个案数"
+
+#: STATS_HECKMAN_REGR.R:276
+msgid "Number of Outcome 1 Cases"
+msgstr ""
+"结果 1 个案数"
+
+#: STATS_HECKMAN_REGR.R:276
+msgid "Number of Outcome 2 Cases"
+msgstr ""
+"结果 2 个案数"
+
+#: STATS_HECKMAN_REGR.R:276
+#: STATS_HECKMAN_REGR.R:299
+msgid "Number of Parameters"
+msgstr ""
+"参数数目"
+
+#: STATS_HECKMAN_REGR.R:277
+#: STATS_HECKMAN_REGR.R:300
+msgid "D.F"
+msgstr ""
+"自由度"
+
+#: STATS_HECKMAN_REGR.R:277
+msgid "R-Squared 1"
+msgstr ""
+"R 方 1"
+
+#: STATS_HECKMAN_REGR.R:277
+msgid "Adjusted R-Squared 1"
+msgstr ""
+"调整后 R 方 1"
+
+#: STATS_HECKMAN_REGR.R:278
+msgid "R-Squared 2"
+msgstr ""
+"R 方 2"
+
+#: STATS_HECKMAN_REGR.R:278
+msgid "Adjusted R-Squared 2"
+msgstr ""
+"调整后 R 方 2"
+
+#: STATS_HECKMAN_REGR.R:279
+#: STATS_HECKMAN_REGR.R:300
+msgid "Method"
+msgstr ""
+"方法"
+
+#: STATS_HECKMAN_REGR.R:279
+#: STATS_HECKMAN_REGR.R:301
+msgid "Computations"
+msgstr ""
+"计算"
+
+#: STATS_HECKMAN_REGR.R:279
+#: STATS_HECKMAN_REGR.R:301
+msgid "Dataset Created"
+msgstr ""
+"创建的数据集"
+
+#: STATS_HECKMAN_REGR.R:282
+#: STATS_HECKMAN_REGR.R:305
+msgid "Summary Statistics"
+msgstr ""
+"摘要统计"
+
+#: STATS_HECKMAN_REGR.R:283
+#: STATS_HECKMAN_REGR.R:283
+#: STATS_HECKMAN_REGR.R:306
+#: STATS_HECKMAN_REGR.R:306
+msgid "Summary"
+msgstr ""
+"摘要"
+
+#: STATS_HECKMAN_REGR.R:286
+#: STATS_HECKMAN_REGR.R:309
+msgid "Selection Variable: %s"
+msgstr ""
+"选择变量：%s"
+
+#: STATS_HECKMAN_REGR.R:287
+#: STATS_HECKMAN_REGR.R:310
+msgid "Probit Selection Estimates"
+msgstr ""
+"概率选择估算值"
+
+#: STATS_HECKMAN_REGR.R:288
+#: STATS_HECKMAN_REGR.R:311
+msgid "Selection Estimates"
+msgstr ""
+"选择估算值"
+
+#: STATS_HECKMAN_REGR.R:290
+msgid "Outcome Variable: %s, Sigma1: %.4f, Rho1: %.4f"
+msgstr ""
+"结果变量：%s，Sigma1：%.4f，Rho1：%.4f"
+
+#: STATS_HECKMAN_REGR.R:291
+#: STATS_HECKMAN_REGR.R:292
+msgid "Outcome 1 Estimates"
+msgstr ""
+"结果 1 估算值"
+
+#: STATS_HECKMAN_REGR.R:294
+msgid "Outcome Variable: %s, Sigma2: %.4f, Rho2: %.4f"
+msgstr ""
+"结果变量：%s，Sigma2：%.4f，Rho2：%.4f"
+
+#: STATS_HECKMAN_REGR.R:295
+#: STATS_HECKMAN_REGR.R:296
+msgid "Outcome 2 Estimates"
+msgstr ""
+"结果 2 估算值"
+
+#: STATS_HECKMAN_REGR.R:299
+msgid "Number of Censored Cases"
+msgstr ""
+"检剔个案数"
+
+#: STATS_HECKMAN_REGR.R:299
+msgid "Number of Observed Cases"
+msgstr ""
+"实测个案数"
+
+#: STATS_HECKMAN_REGR.R:300
+msgid "R-Squared"
+msgstr ""
+"R 方"
+
+#: STATS_HECKMAN_REGR.R:300
+msgid "Adjusted R-Squared"
+msgstr ""
+"调整后 R 方"
+
+#: STATS_HECKMAN_REGR.R:300
+msgid "Log Likelihood"
+msgstr ""
+"对数似然"
+
+#: STATS_HECKMAN_REGR.R:313
+msgid "Outcome Variable: %s, Sigma: %.4f, Rho: %.4f"
+msgstr ""
+"结果变量：%s，Sigma：%.4f，Rho：%.4f"
+
+#: STATS_HECKMAN_REGR.R:314
+#: STATS_HECKMAN_REGR.R:315
+msgid "Outcome Estimates"
+msgstr ""
+"结果估算值"
+
+
