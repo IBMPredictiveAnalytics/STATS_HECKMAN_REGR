@@ -1,0 +1,18 @@
+Name: STATS_HECKMAN_REGR
+Dialog-Specs: STATS_HECKMAN_REGR.spd
+Command-Specs: STATS_HECKMAN_REGR.xml
+Code-Files: STATS_HECKMAN_REGR.R
+Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
+Summary: Estimate censored/truncated regression or switching regression
+Description: This package estimates Heckman two-step regression models
+  for a censored or truncated dependent variable.  It can also estimat
+ e switching regressions. Estimation methods include maximum likelihoo
+ d and two step.
+Author: JKP, IBM SPSS
+Version: 1.1.6
+Product-Version: 19
+Date: 1/2/2014
+Categories: regression, censoring, tobit
+Plugins: R
+R-Packages: sampleSelection
+Translation-Catalogues: lang
