@@ -1,0 +1,275 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_HECKMAN_REGR.R:106
+msgid "The R sampleSelection package is required but could not be loaded."
+msgstr ""
+"R sampleSelection 패키지가 필요하지만 로드할 수 없습니다."
+
+#: STATS_HECKMAN_REGR.R:109
+msgid "The selection  variable may not appear elsewhere as a variable"
+msgstr ""
+"선택 변수가 변수로 다른 위치에 표시되지 않을 수 있습니다."
+
+#: STATS_HECKMAN_REGR.R:111
+msgid "The outcome variable may not appear elsewhere as a variable"
+msgstr ""
+"결과 변수가 변수로 다른 위치에 표시되지 않을 수 있습니다."
+
+#: STATS_HECKMAN_REGR.R:113
+msgid "A dataset name is required if any items are to be saved"
+msgstr ""
+"항목을 저장하려는 경우 데이터 세트 이름이 필수입니다."
+
+#: STATS_HECKMAN_REGR.R:115
+msgid "A dataset name was specified but no items to save were specified"
+msgstr ""
+"데이터 세트 이름이 지정되었지만 저장할 항목이 지정되지 않았습니다."
+
+#: STATS_HECKMAN_REGR.R:149
+msgid "Switching Regression"
+msgstr ""
+"회귀분석 전환"
+
+#: STATS_HECKMAN_REGR.R:165
+msgid "Estimate"
+msgstr ""
+"추정"
+
+#: STATS_HECKMAN_REGR.R:166
+msgid "Std. Error"
+msgstr ""
+"표준오차"
+
+#: STATS_HECKMAN_REGR.R:167
+msgid "t Value"
+msgstr ""
+"t 값"
+
+#: STATS_HECKMAN_REGR.R:168
+msgid "Sig."
+msgstr ""
+"유의확률"
+
+#: STATS_HECKMAN_REGR.R:242
+msgid "Selection Fitted Values"
+msgstr ""
+"선택 적합값"
+
+#: STATS_HECKMAN_REGR.R:247
+msgid "Outcome Fitted Values"
+msgstr ""
+"결과 적합값 "
+
+#: STATS_HECKMAN_REGR.R:252
+msgid "Selection Residuals"
+msgstr ""
+"선택 잔차 "
+
+#: STATS_HECKMAN_REGR.R:257
+msgid "Outcome Residuals"
+msgstr ""
+"결과 잔차 "
+
+#: STATS_HECKMAN_REGR.R:270
+msgid "Heckman Regression"
+msgstr ""
+"Heckman 회귀 "
+
+#: STATS_HECKMAN_REGR.R:273
+msgid "Implemented using package sampleSelection by O. Toomet and A.Henningsen"
+msgstr ""
+"0에 의해 패키지 sampleSelection을 사용하여 구현되었습니다. Toomet 및 A.Henningsen"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Selection Variable"
+msgstr ""
+"선택 변수"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Outcome Variable"
+msgstr ""
+"결과 변수"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Model Type"
+msgstr ""
+"모형 유형"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Number of Valid Cases"
+msgstr ""
+"유효 케이스 수"
+
+#: STATS_HECKMAN_REGR.R:276
+msgid "Number of Outcome 1 Cases"
+msgstr ""
+"결과 1 케이스 수"
+
+#: STATS_HECKMAN_REGR.R:276
+msgid "Number of Outcome 2 Cases"
+msgstr ""
+"결과 2 케이스 수"
+
+#: STATS_HECKMAN_REGR.R:276
+#: STATS_HECKMAN_REGR.R:299
+msgid "Number of Parameters"
+msgstr ""
+"모수의 수"
+
+#: STATS_HECKMAN_REGR.R:277
+#: STATS_HECKMAN_REGR.R:300
+msgid "D.F"
+msgstr ""
+"자유도"
+
+#: STATS_HECKMAN_REGR.R:277
+msgid "R-Squared 1"
+msgstr ""
+"R-제곱 1"
+
+#: STATS_HECKMAN_REGR.R:277
+msgid "Adjusted R-Squared 1"
+msgstr ""
+"수정된 R-제곱 1"
+
+#: STATS_HECKMAN_REGR.R:278
+msgid "R-Squared 2"
+msgstr ""
+"R-제곱 2"
+
+#: STATS_HECKMAN_REGR.R:278
+msgid "Adjusted R-Squared 2"
+msgstr ""
+"수정된 R-제곱 2"
+
+#: STATS_HECKMAN_REGR.R:279
+#: STATS_HECKMAN_REGR.R:300
+msgid "Method"
+msgstr ""
+"방법"
+
+#: STATS_HECKMAN_REGR.R:279
+#: STATS_HECKMAN_REGR.R:301
+msgid "Computations"
+msgstr ""
+"계산"
+
+#: STATS_HECKMAN_REGR.R:279
+#: STATS_HECKMAN_REGR.R:301
+msgid "Dataset Created"
+msgstr ""
+"작성된 데이터 세트"
+
+#: STATS_HECKMAN_REGR.R:282
+#: STATS_HECKMAN_REGR.R:305
+msgid "Summary Statistics"
+msgstr ""
+"요약 통계량"
+
+#: STATS_HECKMAN_REGR.R:283
+#: STATS_HECKMAN_REGR.R:283
+#: STATS_HECKMAN_REGR.R:306
+#: STATS_HECKMAN_REGR.R:306
+msgid "Summary"
+msgstr ""
+"요약"
+
+#: STATS_HECKMAN_REGR.R:286
+#: STATS_HECKMAN_REGR.R:309
+msgid "Selection Variable: %s"
+msgstr ""
+"선택 변수: %s"
+
+#: STATS_HECKMAN_REGR.R:287
+#: STATS_HECKMAN_REGR.R:310
+msgid "Probit Selection Estimates"
+msgstr ""
+"프로빗 선택영역 추정값"
+
+#: STATS_HECKMAN_REGR.R:288
+#: STATS_HECKMAN_REGR.R:311
+msgid "Selection Estimates"
+msgstr ""
+"선택영역 추정값"
+
+#: STATS_HECKMAN_REGR.R:290
+msgid "Outcome Variable: %s, Sigma1: %.4f, Rho1: %.4f"
+msgstr ""
+"결과 변수: %s, Sigma1: %.4f, Rho1: %.4f"
+
+#: STATS_HECKMAN_REGR.R:291
+#: STATS_HECKMAN_REGR.R:292
+msgid "Outcome 1 Estimates"
+msgstr ""
+"결과 1 추정값"
+
+#: STATS_HECKMAN_REGR.R:294
+msgid "Outcome Variable: %s, Sigma2: %.4f, Rho2: %.4f"
+msgstr ""
+"결과 변수: %s, Sigma2: %.4f, Rho2: %.4f"
+
+#: STATS_HECKMAN_REGR.R:295
+#: STATS_HECKMAN_REGR.R:296
+msgid "Outcome 2 Estimates"
+msgstr ""
+"결과 2 추정값"
+
+#: STATS_HECKMAN_REGR.R:299
+msgid "Number of Censored Cases"
+msgstr ""
+"절단된 케이스 수"
+
+#: STATS_HECKMAN_REGR.R:299
+msgid "Number of Observed Cases"
+msgstr ""
+"관측된 케이스 수"
+
+#: STATS_HECKMAN_REGR.R:300
+msgid "R-Squared"
+msgstr ""
+"R-제곱"
+
+#: STATS_HECKMAN_REGR.R:300
+msgid "Adjusted R-Squared"
+msgstr ""
+"수정된 R-제곱"
+
+#: STATS_HECKMAN_REGR.R:300
+msgid "Log Likelihood"
+msgstr ""
+"로그 우도"
+
+#: STATS_HECKMAN_REGR.R:313
+msgid "Outcome Variable: %s, Sigma: %.4f, Rho: %.4f"
+msgstr ""
+"결과 변수: %s, Sigma: %.4f, Rho: %.4f"
+
+#: STATS_HECKMAN_REGR.R:314
+#: STATS_HECKMAN_REGR.R:315
+msgid "Outcome Estimates"
+msgstr ""
+"결과 추정값"
+
+
