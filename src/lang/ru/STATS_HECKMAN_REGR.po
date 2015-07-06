@@ -1,0 +1,275 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: STATS_HECKMAN_REGR.R:106
+msgid "The R sampleSelection package is required but could not be loaded."
+msgstr ""
+"Необходим пакет R sampleSelection, но его не удалось загрузить."
+
+#: STATS_HECKMAN_REGR.R:109
+msgid "The selection  variable may not appear elsewhere as a variable"
+msgstr ""
+"Переменная выбора не может появляться где-либо еще как переменная"
+
+#: STATS_HECKMAN_REGR.R:111
+msgid "The outcome variable may not appear elsewhere as a variable"
+msgstr ""
+"Переменная вывода не может появляться где-либо еще как переменная"
+
+#: STATS_HECKMAN_REGR.R:113
+msgid "A dataset name is required if any items are to be saved"
+msgstr ""
+"Если какие-либо элементы данных должны быть сохранены, требуется имя набора данных"
+
+#: STATS_HECKMAN_REGR.R:115
+msgid "A dataset name was specified but no items to save were specified"
+msgstr ""
+"Имя набора данных задано, но элементы для сохранения не заданы"
+
+#: STATS_HECKMAN_REGR.R:149
+msgid "Switching Regression"
+msgstr ""
+"Переключенная регрессия"
+
+#: STATS_HECKMAN_REGR.R:165
+msgid "Estimate"
+msgstr ""
+"Оценка"
+
+#: STATS_HECKMAN_REGR.R:166
+msgid "Std. Error"
+msgstr ""
+"Стд. ошибка"
+
+#: STATS_HECKMAN_REGR.R:167
+msgid "t Value"
+msgstr ""
+"t-значение"
+
+#: STATS_HECKMAN_REGR.R:168
+msgid "Sig."
+msgstr ""
+"Значимость"
+
+#: STATS_HECKMAN_REGR.R:242
+msgid "Selection Fitted Values"
+msgstr ""
+"Выбор подогнанных значений"
+
+#: STATS_HECKMAN_REGR.R:247
+msgid "Outcome Fitted Values"
+msgstr ""
+"Выходные подогнанные значения"
+
+#: STATS_HECKMAN_REGR.R:252
+msgid "Selection Residuals"
+msgstr ""
+"Выбор остатков"
+
+#: STATS_HECKMAN_REGR.R:257
+msgid "Outcome Residuals"
+msgstr ""
+"Выходные остатки"
+
+#: STATS_HECKMAN_REGR.R:270
+msgid "Heckman Regression"
+msgstr ""
+"Регрессия Хекмана"
+
+#: STATS_HECKMAN_REGR.R:273
+msgid "Implemented using package sampleSelection by O. Toomet and A.Henningsen"
+msgstr ""
+"Реализовано при помощи пакета sampleSelection О.Тоомета и А.Хеннингсена"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Selection Variable"
+msgstr ""
+"Отбирающая переменная"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Outcome Variable"
+msgstr ""
+"Переменная выхода"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Model Type"
+msgstr ""
+"Тип модели"
+
+#: STATS_HECKMAN_REGR.R:275
+#: STATS_HECKMAN_REGR.R:298
+msgid "Number of Valid Cases"
+msgstr ""
+"Количество действительных наблюдений"
+
+#: STATS_HECKMAN_REGR.R:276
+msgid "Number of Outcome 1 Cases"
+msgstr ""
+"Число наблюдений вывода 1"
+
+#: STATS_HECKMAN_REGR.R:276
+msgid "Number of Outcome 2 Cases"
+msgstr ""
+"Число наблюдений вывода 2"
+
+#: STATS_HECKMAN_REGR.R:276
+#: STATS_HECKMAN_REGR.R:299
+msgid "Number of Parameters"
+msgstr ""
+"Число параметров"
+
+#: STATS_HECKMAN_REGR.R:277
+#: STATS_HECKMAN_REGR.R:300
+msgid "D.F"
+msgstr ""
+"Ст.Св."
+
+#: STATS_HECKMAN_REGR.R:277
+msgid "R-Squared 1"
+msgstr ""
+"R-квадрат 1"
+
+#: STATS_HECKMAN_REGR.R:277
+msgid "Adjusted R-Squared 1"
+msgstr ""
+"Скорректированный R-квадрат 1"
+
+#: STATS_HECKMAN_REGR.R:278
+msgid "R-Squared 2"
+msgstr ""
+"R-квадрат 2"
+
+#: STATS_HECKMAN_REGR.R:278
+msgid "Adjusted R-Squared 2"
+msgstr ""
+"Скорректированный R-квадрат 2"
+
+#: STATS_HECKMAN_REGR.R:279
+#: STATS_HECKMAN_REGR.R:300
+msgid "Method"
+msgstr ""
+"Метод"
+
+#: STATS_HECKMAN_REGR.R:279
+#: STATS_HECKMAN_REGR.R:301
+msgid "Computations"
+msgstr ""
+"Вычисления"
+
+#: STATS_HECKMAN_REGR.R:279
+#: STATS_HECKMAN_REGR.R:301
+msgid "Dataset Created"
+msgstr ""
+"Набор данных создан"
+
+#: STATS_HECKMAN_REGR.R:282
+#: STATS_HECKMAN_REGR.R:305
+msgid "Summary Statistics"
+msgstr ""
+"Итоговые статистики"
+
+#: STATS_HECKMAN_REGR.R:283
+#: STATS_HECKMAN_REGR.R:283
+#: STATS_HECKMAN_REGR.R:306
+#: STATS_HECKMAN_REGR.R:306
+msgid "Summary"
+msgstr ""
+"Итог"
+
+#: STATS_HECKMAN_REGR.R:286
+#: STATS_HECKMAN_REGR.R:309
+msgid "Selection Variable: %s"
+msgstr ""
+"Переменная отбора наблюдений: %s"
+
+#: STATS_HECKMAN_REGR.R:287
+#: STATS_HECKMAN_REGR.R:310
+msgid "Probit Selection Estimates"
+msgstr ""
+"Оценка выбора пробит"
+
+#: STATS_HECKMAN_REGR.R:288
+#: STATS_HECKMAN_REGR.R:311
+msgid "Selection Estimates"
+msgstr ""
+"Оценки выбора"
+
+#: STATS_HECKMAN_REGR.R:290
+msgid "Outcome Variable: %s, Sigma1: %.4f, Rho1: %.4f"
+msgstr ""
+"Выходные переменные: %s, сигма1: %.4f, ро1: %.4f"
+
+#: STATS_HECKMAN_REGR.R:291
+#: STATS_HECKMAN_REGR.R:292
+msgid "Outcome 1 Estimates"
+msgstr ""
+"Оценки вывода 1"
+
+#: STATS_HECKMAN_REGR.R:294
+msgid "Outcome Variable: %s, Sigma2: %.4f, Rho2: %.4f"
+msgstr ""
+"Выходные переменные: %s, сигма2: %.4f, ро2: %.4f"
+
+#: STATS_HECKMAN_REGR.R:295
+#: STATS_HECKMAN_REGR.R:296
+msgid "Outcome 2 Estimates"
+msgstr ""
+"Оценки вывода 2"
+
+#: STATS_HECKMAN_REGR.R:299
+msgid "Number of Censored Cases"
+msgstr ""
+"Количество цензурированных наблюдений"
+
+#: STATS_HECKMAN_REGR.R:299
+msgid "Number of Observed Cases"
+msgstr ""
+"Количество полученных наблюдений"
+
+#: STATS_HECKMAN_REGR.R:300
+msgid "R-Squared"
+msgstr ""
+"R-квадрат"
+
+#: STATS_HECKMAN_REGR.R:300
+msgid "Adjusted R-Squared"
+msgstr ""
+"Скорректированный R квадрат"
+
+#: STATS_HECKMAN_REGR.R:300
+msgid "Log Likelihood"
+msgstr ""
+"Логарифмическое правдоподобие"
+
+#: STATS_HECKMAN_REGR.R:313
+msgid "Outcome Variable: %s, Sigma: %.4f, Rho: %.4f"
+msgstr ""
+"Выходные переменные: %s, сигма: %.4f, ро: %.4f"
+
+#: STATS_HECKMAN_REGR.R:314
+#: STATS_HECKMAN_REGR.R:315
+msgid "Outcome Estimates"
+msgstr ""
+"Оценки вывода"
+
+
