@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS HECKMAN REGR Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>STATS HECKMAN REGR Extension Command</h1>
+
+<p>Compute Heckman-style censored regression or switching regressions.</p>
+<div class="syntax">
+<p>STATS HECKMAN REGR
+/SELECTION SDEPENDENT=<em>selection variable</em><sup>&#42;</sup> SINDEPENDENT=<em>predictor list</em><sup>&#42;</sup>  </p>
+
+<p>/OUTCOME ODEPENDENT=<em>outcome variable</em><sup>&#42;</sup> OINDEPENDENT=<em>predictor list</em><sup>&#42;</sup>
+        [OINDEPENDENT2=<em>predictor list</em></p>
+
+<p>/OPTIONS METHOD=ML<sup>&#42;&#42;</sup> or TWOSTEP STARTVALUES= <em>list of starting values</em>
+  DEBUGOUTPUT=<em>number</em></p>
+
+<p>/SAVE DATASET=<em>dataset</em> ID=<em>id variable</em> SELFIT=YES or NO<sup>&#42;&#42;</sup> OUTFIT=YES or NO<sup>&#42;&#42;</sup> SELRES=YES or NO<sup>&#42;&#42;</sup> OUTRES=YES or NO<sup>&#42;&#42;</sup></p>
+
+<p>/HELP</p>
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>STATS HECKMAN REGR /HELP prints this information and does nothing else.</p>
+
+<pre class="example"><code>STATS HECKMAN REGR SDEPENDENT=employed 
+SINDEPENDENT = age education gender
+/OUTCOME ODEPENDENT=salary OINDEPENDENT=age education gender experience.
+</code></pre>
+
+<p>The first form of the command applies when some observations are censored and, hence,
+the dependent variable is not observed.  The second form applies when there are two
+regimes, and which one applies depends on a set of specified factors.</p>
+
+<h2>SELECTION</h2>
+
+<p>The SELECTION subcommand specifies the selection model consisting of
+a two-valued dependent variable specified as <strong>SDEPENDENT</strong> and one or more predictors
+specified as <strong>SINDEPENDENT</strong>.  This equation is estimated as a probit model.  The
+smaller value of the dependent variable indicates the cases that are censored.
+This variable should be numeric.</p>
+
+<h2>OUTCOME</h2>
+
+<p>The OUTCOME subcommand specifies the model that applies for the uncensored
+observations, or two models that apply for switching regression.
+<strong>ODEPENDENT</strong> is the dependent variable, and <strong>OINDEPENDENT</strong> is the
+list of independent variables.  Do not code the censored values of the dependent
+variable as missing.</p>
+
+<p>The independent variables are assumed to be scale measurement level except
+that strings are interpreted as factors.</p>
+
+<p>If <strong>ODEPENDENT2</strong> is specified, two regressions are estimated along
+with the probit equation.  Both regressions have the same dependent
+variable but may have different lists of independent variables.</p>
+
+<h2>OPTIONS</h2>
+
+<p><strong>METHOD</strong> specifies the estimation method.
+The models can be estimated by maximum likelihood (ML) or two-step Heckman
+regression (TWOSTEP).  When TWOSTEP
+is used, the inverse Mills ratio from the probit equation is included in the
+second step in order to address the selection bias.</p>
+
+<p><strong>STARTVALUES</strong> can specify starting values for maximum likelihood estimation.
+One value must be supplied for each term in the equations plus the rho and sigma
+values in the order as shown in the output.</p>
+
+<p><strong>DEBUGOUT</strong> specifies the level of debugging output to display.  The default is 0,
+which means no debug output.  Larger values produce more information.</p>
+
+<h2>SAVE</h2>
+
+<p>SAVE specifies what casewise results to save if any.
+If used, the <strong>DATASET</strong> parameter must specify a dataset name that is not
+already in use where these results will be written.</p>
+
+<p><strong>SELFIT</strong> <strong>OUTFIT</strong> <strong>SELRES</strong> and <strong>OUTRES</strong> can specify saving the selection
+probabilities and predicted outcome values and the corresponding residuals.
+NOTE: Missing value deletion may cause the number of cases in the results
+dataset to be less than the number of input cases.  Cases with missing values
+are discarded unless the missing values occur in the outcome equation when
+the outcome variable is unobserved.</p>
+
+<p>Since missing values may cause the number of saved cases to differ 
+from the input, specify an <strong>ID</strong> variable to facilitate matching up the saved values 
+with the input dataset.</p>
+
+<p>Details of the statistical models can be found in
+Toomet O, Henningsen A (2008b). &#39;Sample Selection Models in R: Package sampleSelection.&#39;
+Journal of Statistical Software, 27(7). URL <a href="http://www.jstatsoft.org/v27/i07/">http://www.jstatsoft.org/v27/i07/</a>
+or the equivalent R vignette.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
