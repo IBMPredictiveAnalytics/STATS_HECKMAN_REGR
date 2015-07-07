@@ -1,0 +1,39 @@
+<!-- ***************************************************************** -->
+<!--                                                                   -->
+<!-- Licensed Materials - Property of IBM                              -->
+<!--                                                                   -->
+<!-- IBM SPSS Products: Statistics Common                              -->
+<!--                                                                   -->
+<!-- (C) Copyright IBM Corp. 1989, 2012                                -->
+<!--                                                                   -->
+<!-- US Government Users Restricted Rights - Use, duplication or       -->
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM       -->
+<!-- Corp.                                                             -->
+<!--                                                                   -->
+<!-- ***************************************************************** -->
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by Jon Peck (SPSS Inc.) -->
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extension-1.0.xsd" Name="STATS HECKMAN REGR" Language="R">
+	<Subcommand Name="SELECTION">
+		<Parameter Name="SDEPENDENT" ParameterType="VariableName"/>
+		<Parameter Name="SINDEPENDENT" ParameterType="VariableNameList"/>
+	</Subcommand>
+	<Subcommand Name="OUTCOME">
+		<Parameter Name="ODEPENDENT" ParameterType="VariableName"/>
+		<Parameter Name="OINDEPENDENT" ParameterType="VariableNameList"/>
+		<Parameter Name="OINDEPENDENT2" ParameterType="VariableNameList"/>
+	</Subcommand>
+	<Subcommand Name="OPTIONS">
+		<Parameter Name="METHOD" ParameterType="Keyword"/>
+		<Parameter Name="STARTVALUES" ParameterType="NumberList"/>
+		<Parameter Name="DEBUGOUTPUT" ParameterType="Integer"/>
+	</Subcommand>
+	<Subcommand Name="SAVE">
+		<Parameter Name="DATASET" ParameterType="VariableName"/>
+		<Parameter Name="SELFIT" ParameterType="Keyword"/>
+		<Parameter Name="OUTFIT" ParameterType="Keyword"/>
+		<Parameter Name="SELRES" ParameterType="Keyword"/>
+		<Parameter Name="OUTRES" ParameterType="Keyword"/>
+		<Parameter Name="ID" ParameterType="VariableName"/>
+	</Subcommand>
+	<Subcommand Name="HELP" Occurrence="Optional"/>
+</Command>
