@@ -1,11 +1,11 @@
 # STATS_HECKMAN_REGR
 ## Estimate censored/truncated regression or switching regression
- This package estimates Heckman two-step regression models
+ This package estimates Heckman two-step regression models for a censored or truncated dependent variable.  It can also estimate switching regressions. Estimation methods include maximum likelihood and two step.
 
 ---
 Requirements
 ----
-- IBM SPSS Statistics 19 or later
+- IBM SPSS Statistics 19 or later and the corresponding IBM SPSS Statistics-Integration Plug-in for R.
 
 ---
 Installation intructions
