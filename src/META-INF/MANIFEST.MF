@@ -9,7 +9,7 @@ Description: This package estimates Heckman two-step regression models
  e switching regressions. Estimation methods include maximum likelihoo
  d and two step.
 Author: JKP, IBM SPSS
-Version: 1.1.6
+Version: 1.1.7
 Product-Version: 19
 Date: 1/2/2014
 Categories: regression, censoring, tobit
