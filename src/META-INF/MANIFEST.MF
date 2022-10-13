@@ -1,4 +1,5 @@
 Name: STATS_HECKMAN_REGR
+Display-Name: Heckman Regression
 Dialog-Specs: STATS_HECKMAN_REGR.spd
 Command-Specs: STATS_HECKMAN_REGR.xml
 Code-Files: STATS_HECKMAN_REGR.R
@@ -9,7 +10,7 @@ Description: This package estimates Heckman two-step regression models
  e switching regressions. Estimation methods include maximum likelihoo
  d and two step.
 Author: JKP, IBM SPSS
-Version: 1.1.7
+Version: 1.1.6
 Product-Version: 19
 Date: 1/2/2014
 Categories: regression, censoring, tobit
